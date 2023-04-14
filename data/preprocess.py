@@ -8,23 +8,12 @@ modalities = ('flair', 't1ce', 't1', 't2')
 
 # train
 train_set = {
-        'root': './data/BraTS2021_TrainingData/',
+        'root': './kaggle/input/brats-2021-task1/BraTS2021_Training_Data.tar/',
         'flist': 'train.txt',
         'has_label': True
         }
 
 # test/validation data
-valid_set = {
-        'root': './data/BraTS2021_ValidationData/',
-        'flist': 'valid.txt',
-        'has_label': False
-        }
-
-test_set = {
-        'root': 'path to testing set',
-        'flist': 'test.txt',
-        'has_label': False
-        }
 
 
 def nib_load(file_name):
