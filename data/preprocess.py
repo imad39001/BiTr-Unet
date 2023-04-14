@@ -8,7 +8,7 @@ modalities = ('flair', 't1ce', 't1', 't2')
 
 # train
 train_set = {
-        'root': './kaggle/input/brats-2021-task1/BraTS2021_Training_Data.tar/',
+        'root': '/kaggle/input/brats-2021-task1/BraTS2021_Training_Data.tar',
         'flist': 'train.txt',
         'has_label': True
         }
